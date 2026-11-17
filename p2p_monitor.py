@@ -2,6 +2,15 @@
 P2P монитор (Binance P2P) -> алерты в Telegram, управление кнопками и командами.
 Адаптирован для запуска на Render.com и локально.
 """
+HEADERS = {
+    "Content-Type": "application/json",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "*/*",
+    "Accept-Language": "uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Origin": "https://binance.com",
+    "Referer": "https://binance.com/uk/trade/sell/USDT?fiat=UAH&payment=all-payments",
+    "clienttype": "web",
+}
 
 import json
 import os
@@ -151,7 +160,7 @@ def reset_filters():
 
 def tg_call(method, http_timeout=15, **params):
     r = requests.post(
-        f"https://telegram.org{CFG['tg_token']}/{method}",
+        f"https://api.telegram.org/bot{CFG['tg_token']}/{method}",
         json=params,
         timeout=http_timeout,
     )
