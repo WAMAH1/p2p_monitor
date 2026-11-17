@@ -181,10 +181,33 @@ def filters_text(f):
 # ---------------- способы оплаты ----------------
 _methods_cache = {}   # fiat -> (time, [(identifier, name)])
 
-ALIASES = {  # кириллица -> латиница для поиска
-    "ощад": "oschad", "моно": "mono", "приват": "privat", "пумб": "pumb",
-    "абанк": "abank", "а-банк": "abank", "райф": "raif", "укрсиб": "ukrsib",
-    "сенс": "sense", "ощадбанк": "oschad", "універсал": "mono", "универсал": "mono",
+BUILTIN_METHODS = {
+    "UAH": [
+        ("Monobank", "Monobank"),
+        ("PrivatBank", "ПриватБанк"),
+        ("Oschadbank", "Ощадбанк"),
+        ("PUMBBank", "ПУМБ"),
+        ("ABank", "А-Банк"),
+        ("SenseBank", "Sense Bank"),
+        ("RaiffeisenBankAval", "Райффайзен"),
+        ("UkrSibbank", "Укрсиббанк"),
+        ("Izibank", "izibank"),
+        ("Sportbank", "sportbank"),
+        ("OTPBank", "OTP Bank"),
+        ("Tascombank", "ТАСкомбанк"),
+    ]
+}
+
+ALIASES = {
+    "ощад": "Oschadbank", "ощадбанк": "Oschadbank", "oshadbank": "Oschadbank",
+    "моно": "Monobank", "монобанк": "Monobank", "monobank": "Monobank", "універсал": "Monobank",
+    "приват": "PrivatBank", "приватбанк": "PrivatBank", "privat": "PrivatBank",
+    "пумб": "PUMBBank", "pumb": "PUMBBank",
+    "абанк": "ABank", "а-банк": "ABank", "abank": "ABank",
+    "сенс": "SenseBank", "sense": "SenseBank",
+    "райф": "RaiffeisenBankAval", "райффайзен": "RaiffeisenBankAval", "raif": "RaiffeisenBankAval",
+    "укрсиб": "UkrSibbank", "ukrsib": "UkrSibbank",
+    "изи": "Izibank", "izi": "Izibank",
 }
 
 
@@ -192,34 +215,60 @@ def get_methods(fiat):
     c = _methods_cache.get(fiat)
     if c and time.time() - c[0] < 3600:
         return c[1]
+
+    out = []
     try:
         r = requests.post(f"{BASE_URL}/filter-conditions", json={"fiat": fiat},
-                          headers=HEADERS, timeout=15)
+                          headers=HEADERS, timeout=10)
         data = (r.json().get("data") or {})
         out = [(m["identifier"], m.get("tradeMethodName") or m["identifier"])
                for m in (data.get("tradeMethods") or []) if m.get("identifier")]
-        if out:
-            _methods_cache[fiat] = (time.time(), out)
-        return out
     except Exception:
-        log.exception("Не удалось получить список способов оплаты")
-        return []
+        pass
+
+    if not out:
+        try:
+            body = {"asset": "USDT", "fiat": fiat, "tradeType": "BUY", "page": 1, "rows": 20}
+            r = requests.post(f"{BASE_URL}/search", json=body, headers=HEADERS, timeout=10)
+            seen_m = {}
+            for item in (r.json().get("data") or []):
+                for m in item.get("adv", {}).get("tradeMethods", []):
+                    ident = m.get("identifier")
+                    if ident and ident not in seen_m:
+                        seen_m[ident] = m.get("tradeMethodName") or ident
+            out = list(seen_m.items())
+        except Exception:
+            pass
+
+    builtin = BUILTIN_METHODS.get(fiat, [])
+    merged = list(builtin)
+    existing_ids = {i for i, _ in merged}
+    for ident, name in out:
+        if ident not in existing_ids:
+            merged.append((ident, name))
+
+    if merged:
+        _methods_cache[fiat] = (time.time(), merged)
+    return merged
 
 
 def resolve_pay(tokens, fiat):
     methods = get_methods(fiat)
-    if not methods:
-        log.warning("Список способов оплаты недоступен — беру названия как есть")
-        return tokens
     result = []
     for t in tokens:
-        low = ALIASES.get(t.lower(), t.lower())
+        low = t.lower()
+        if low in ALIASES:
+            ident = ALIASES[low]
+            if ident not in result:
+                result.append(ident)
+            continue
+
         exact = [i for i, n in methods if i.lower() == low or n.lower() == low]
         part = [i for i, n in methods if low in i.lower() or low in n.lower()]
         found = exact or part
         if not found:
             raise ValueError(f"способ оплаты «{t}» не найден для {fiat}. Смотри /methods")
-        for i in found[:3]:
+        for i in found[:2]:
             if i not in result:
                 result.append(i)
     return result
