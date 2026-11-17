@@ -1,0 +1,15 @@
+{
+  "asset": "USDT",
+  "fiat": "UAH",
+  "trade_type": "SELL",
+  "pay_types": [
+    "Ощадбанк"
+  ],
+  "amount": 1000.0,
+  "max_price": null,
+  "min_price": 40.0,
+  "min_rate": 0.0,
+  "min_orders": 0,
+  "merchants_only": false,
+  "paused": false
+}

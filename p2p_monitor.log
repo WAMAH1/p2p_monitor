@@ -1,0 +1,1060 @@
+19:01:21 [INFO] Старт: BUY USDT/UAH, MAX_PRICE=41.5 MIN_PRICE=None pay=любые
+19:01:22 [ERROR] Telegram HTTP 400: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+19:01:22 [ERROR] Подсказка: открой своего бота в Telegram и нажми /start, проверь chat id
+19:01:22 [WARNING] Стартовое сообщение не доставлено — проверь токен/chat id (см. ошибку выше)
+19:01:22 [DEBUG] Binance HTTP 200
+19:01:22 [DEBUG]   ✗ ExTurk 46.31 — цена 46.31 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ VIP-Merchant 46.33 — цена 46.33 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ Labuba 46.37 — цена 46.37 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ _Prime_ExChange 46.40 — цена 46.4 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ MNF_Exchange 46.40 — цена 46.4 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ Daniel_Craiger 46.41 — цена 46.41 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ p2pobmeno4ka14 46.41 — цена 46.41 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ _BRUSSELS 46.43 — цена 46.43 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ Iracryptoo 46.43 — цена 46.43 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ honest_maker 46.46 — цена 46.46 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ kurator_01111 46.48 — цена 46.48 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ RowiosNo 46.50 — цена 46.5 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ CryptoSwapX_P2P 46.51 — цена 46.51 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ Seroe_Sobranie_2 46.52 — цена 46.52 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ MV_EXCHANGE 46.53 — цена 46.53 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ Nikrasevych 46.54 — цена 46.54 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ SLIKEÑ 46.57 — цена 46.57 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ M1_EX 46.60 — цена 46.6 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ M1_EX 46.60 — цена 46.6 > MAX_PRICE 41.5
+19:01:22 [DEBUG]   ✗ _Damka_ 46.60 — цена 46.6 > MAX_PRICE 41.5
+19:01:22 [INFO] Стакан: 20 объявл., цены 46.31–46.60 | новых: 20, подошло: 0
+19:01:32 [DEBUG] Binance HTTP 200
+19:01:32 [DEBUG]   ✗ Corsar20 46.62 — цена 46.62 > MAX_PRICE 41.5
+19:01:32 [INFO] Стакан: 20 объявл., цены 46.32–46.62 | новых: 1, подошло: 0
+19:01:43 [DEBUG] Binance HTTP 200
+19:01:43 [DEBUG]   ✗ P2P-9e98b5vb 46.57 — цена 46.57 > MAX_PRICE 41.5
+19:01:43 [DEBUG]   ✗ ObmenOpt 46.60 — цена 46.6 > MAX_PRICE 41.5
+19:01:43 [DEBUG]   ✗ Sashok 46.63 — цена 46.63 > MAX_PRICE 41.5
+19:01:43 [INFO] Стакан: 20 объявл., цены 46.32–46.63 | новых: 3, подошло: 0
+19:01:53 [DEBUG] Binance HTTP 200
+19:01:53 [DEBUG]   ✗ Fast_ChangeQ 46.63 — цена 46.63 > MAX_PRICE 41.5
+19:01:53 [DEBUG]   ✗ Obminiaylo 46.64 — цена 46.64 > MAX_PRICE 41.5
+19:01:53 [INFO] Стакан: 20 объявл., цены 46.39–46.64 | новых: 2, подошло: 0
+19:05:44 [INFO] Старт. Фильтры:
+▶️ Работает
+Пара: USDT/UAH, BUY
+Цена: от — до —
+Мин. выполнение: —
+Мин. ордеров: —
+Оплата: любая
+Сумма: —
+Только мерчанты: нет
+19:05:44 [INFO] Telegram: отправлено
+19:05:44 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:05:44 [DEBUG] Binance HTTP 200
+19:05:44 [INFO]   ✓ ПОДХОДИТ: ExTurk 46.33 — шлю алерт
+19:05:45 [INFO] Telegram: отправлено
+19:05:45 [INFO]   ✓ ПОДХОДИТ: _Prime_ExChange 46.35 — шлю алерт
+19:05:45 [INFO] Telegram: отправлено
+19:05:45 [INFO]   ✓ ПОДХОДИТ: Obminiaylo 46.37 — шлю алерт
+19:05:45 [INFO] Telegram: отправлено
+19:05:45 [INFO]   ✓ ПОДХОДИТ: DyadyaJoraP2P 46.40 — шлю алерт
+19:05:45 [INFO] Telegram: отправлено
+19:05:45 [INFO]   ✓ ПОДХОДИТ: 100-dollars-exchange 46.46 — шлю алерт
+19:05:46 [INFO] Telegram: отправлено
+19:05:46 [INFO] Telegram: отправлено
+19:05:46 [INFO] Стакан: 20 объявл., цены 46.33–46.65 | новых: 20, подошло: 20
+19:05:49 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:05:54 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:05:56 [DEBUG] Binance HTTP 200
+19:05:56 [INFO]   ✓ ПОДХОДИТ: honest_maker 46.44 — шлю алерт
+19:05:57 [INFO] Telegram: отправлено
+19:05:57 [INFO]   ✓ ПОДХОДИТ: Obminiaylo 46.63 — шлю алерт
+19:05:57 [INFO] Telegram: отправлено
+19:05:57 [INFO] Стакан: 20 объявл., цены 46.33–46.63 | новых: 2, подошло: 2
+19:05:59 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:06:04 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:06:08 [DEBUG] Binance HTTP 200
+19:06:08 [INFO]   ✓ ПОДХОДИТ: Denchik_crypto_P2P 46.30 — шлю алерт
+19:06:08 [INFO] Telegram: отправлено
+19:06:08 [INFO]   ✓ ПОДХОДИТ: Pronto_EX 46.36 — шлю алерт
+19:06:08 [INFO] Telegram: отправлено
+19:06:08 [INFO]   ✓ ПОДХОДИТ: Andrii_Lutsk 46.48 — шлю алерт
+19:06:08 [INFO] Telegram: отправлено
+19:06:08 [INFO]   ✓ ПОДХОДИТ: Zamachauu 46.50 — шлю алерт
+19:06:09 [INFO] Telegram: отправлено
+19:06:09 [INFO] Стакан: 20 объявл., цены 46.30–46.61 | новых: 4, подошло: 4
+19:06:09 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:06:14 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:06:19 [DEBUG] Binance HTTP 200
+19:06:19 [INFO] Стакан: 20 объявл., цены 46.30–46.65 | новых: 0, подошло: 0
+19:06:19 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:06:24 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:06:29 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:06:30 [DEBUG] Binance HTTP 200
+19:06:30 [INFO]   ✓ ПОДХОДИТ: Moments_Zp 46.65 — шлю алерт
+19:06:30 [INFO] Telegram: отправлено
+19:06:30 [INFO] Стакан: 20 объявл., цены 46.30–46.65 | новых: 1, подошло: 1
+19:06:34 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:06:39 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:06:40 [DEBUG] Binance HTTP 200
+19:06:40 [INFO]   ✓ ПОДХОДИТ: homer25 46.30 — шлю алерт
+19:06:40 [INFO] Telegram: отправлено
+19:06:40 [INFO]   ✓ ПОДХОДИТ: ExchangeStable 46.40 — шлю алерт
+19:06:41 [INFO] Telegram: отправлено
+19:06:41 [INFO] Стакан: 20 объявл., цены 46.30–46.65 | новых: 2, подошло: 2
+19:06:44 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:06:49 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:06:51 [DEBUG] Binance HTTP 200
+19:06:51 [INFO]   ✓ ПОДХОДИТ: HotDogg 46.30 — шлю алерт
+19:06:51 [INFO] Telegram: отправлено
+19:06:51 [INFO]   ✓ ПОДХОДИТ: global_payout 46.67 — шлю алерт
+19:06:52 [INFO] Telegram: отправлено
+19:06:52 [INFO]   ✓ ПОДХОДИТ: Reki089 46.69 — шлю алерт
+19:06:52 [INFO] Telegram: отправлено
+19:06:52 [INFO] Стакан: 20 объявл., цены 46.30–46.69 | новых: 3, подошло: 3
+19:06:54 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:06:59 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:07:02 [DEBUG] Binance HTTP 200
+19:07:02 [INFO]   ✓ ПОДХОДИТ: Currency_exchange_Kh 46.25 — шлю алерт
+19:07:02 [INFO] Telegram: отправлено
+19:07:02 [INFO]   ✓ ПОДХОДИТ: 07_Exchange 46.37 — шлю алерт
+19:07:03 [INFO] Telegram: отправлено
+19:07:03 [INFO]   ✓ ПОДХОДИТ: Symerrr_1488 46.50 — шлю алерт
+19:07:03 [INFO] Telegram: отправлено
+19:07:03 [INFO] Стакан: 20 объявл., цены 46.25–46.67 | новых: 3, подошло: 3
+19:07:04 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:07:09 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:07:13 [DEBUG] Binance HTTP 200
+19:07:13 [INFO]   ✓ ПОДХОДИТ: TOBka 46.29 — шлю алерт
+19:07:13 [INFO] Telegram: отправлено
+19:07:13 [INFO] Стакан: 20 объявл., цены 46.25–46.67 | новых: 1, подошло: 1
+19:07:14 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:07:19 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:07:24 [DEBUG] Binance HTTP 200
+19:07:24 [INFO]   ✓ ПОДХОДИТ: SKYUP_p2p 46.30 — шлю алерт
+19:07:24 [INFO] Telegram: отправлено
+19:07:24 [INFO] Стакан: 20 объявл., цены 46.25–46.61 | новых: 1, подошло: 1
+19:07:24 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:07:29 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:07:34 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:07:34 [DEBUG] Binance HTTP 200
+19:07:34 [INFO] Стакан: 20 объявл., цены 46.25–46.61 | новых: 0, подошло: 0
+19:07:39 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:07:44 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:07:45 [DEBUG] Binance HTTP 200
+19:07:45 [INFO]   ✓ ПОДХОДИТ: Gladiator_USDT 46.29 — шлю алерт
+19:07:45 [INFO] Telegram: отправлено
+19:07:45 [INFO]   ✓ ПОДХОДИТ: MV_EXCHANGE 46.53 — шлю алерт
+19:07:45 [INFO] Telegram: отправлено
+19:07:45 [INFO] Стакан: 20 объявл., цены 46.29–46.65 | новых: 2, подошло: 2
+19:07:49 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:07:54 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:07:56 [DEBUG] Binance HTTP 200
+19:07:56 [INFO]   ✓ ПОДХОДИТ: dmikoch 46.20 — шлю алерт
+19:07:56 [INFO] Telegram: отправлено
+19:07:56 [INFO] Стакан: 20 объявл., цены 46.20–46.69 | новых: 1, подошло: 1
+19:07:59 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:08:04 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:08:06 [DEBUG] Binance HTTP 200
+19:08:06 [INFO]   ✓ ПОДХОДИТ: Monaco_96 46.29 — шлю алерт
+19:08:07 [INFO] Telegram: отправлено
+19:08:07 [INFO]   ✓ ПОДХОДИТ: _al_capone_ 46.69 — шлю алерт
+19:08:07 [INFO] Telegram: отправлено
+19:08:07 [INFO]   ✓ ПОДХОДИТ: 07_Exchange 46.69 — шлю алерт
+19:08:07 [INFO] Telegram: отправлено
+19:08:07 [INFO]   ✓ ПОДХОДИТ: -Crypto_Mama- 46.70 — шлю алерт
+19:08:07 [INFO] Telegram: отправлено
+19:08:07 [INFO] Стакан: 20 объявл., цены 46.29–46.70 | новых: 4, подошло: 4
+19:08:09 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:08:14 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:08:18 [DEBUG] Binance HTTP 200
+19:08:18 [INFO]   ✓ ПОДХОДИТ: KoooIdyn8 46.64 — шлю алерт
+19:08:18 [INFO] Telegram: отправлено
+19:08:18 [INFO]   ✓ ПОДХОДИТ: MdsTerra01 46.64 — шлю алерт
+19:08:18 [INFO] Telegram: отправлено
+19:08:18 [INFO] Стакан: 20 объявл., цены 46.29–46.69 | новых: 2, подошло: 2
+19:08:19 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:08:24 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:08:29 [DEBUG] Binance HTTP 200
+19:08:29 [INFO]   ✓ ПОДХОДИТ: LitvaObmen 46.30 — шлю алерт
+19:08:29 [INFO] Telegram: отправлено
+19:08:29 [INFO] Стакан: 20 объявл., цены 46.30–46.69 | новых: 1, подошло: 1
+19:08:29 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:08:34 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:08:39 [DEBUG] Binance HTTP 200
+19:08:39 [INFO]   ✓ ПОДХОДИТ: KENNEDII 46.49 — шлю алерт
+19:08:39 [INFO] Telegram: отправлено
+19:08:39 [INFO]   ✓ ПОДХОДИТ: DealeR_XT3_Kh 46.60 — шлю алерт
+19:08:39 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:08:40 [INFO] Telegram: отправлено
+19:08:40 [INFO]   ✓ ПОДХОДИТ: _ichpachmak_ 46.70 — шлю алерт
+19:08:40 [INFO] Telegram: отправлено
+19:08:40 [INFO] Стакан: 20 объявл., цены 46.30–46.70 | новых: 3, подошло: 3
+19:08:44 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:08:49 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:08:50 [DEBUG] Binance HTTP 200
+19:08:50 [INFO]   ✓ ПОДХОДИТ: User-cdb12 46.37 — шлю алерт
+19:08:52 [INFO] Telegram: отправлено
+19:08:52 [INFO]   ✓ ПОДХОДИТ: Edenfort 46.60 — шлю алерт
+19:08:52 [INFO] Telegram: отправлено
+19:08:52 [INFO] Стакан: 20 объявл., цены 46.30–46.69 | новых: 2, подошло: 2
+19:08:54 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:08:59 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:09:02 [DEBUG] Binance HTTP 200
+19:09:02 [INFO]   ✓ ПОДХОДИТ: BARb_Exchange 46.35 — шлю алерт
+19:09:04 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:09:07 [INFO] Telegram: отправлено
+19:09:07 [INFO]   ✓ ПОДХОДИТ: Bliskavka 46.49 — шлю алерт
+19:09:07 [INFO] Telegram: отправлено
+19:09:07 [INFO] Стакан: 20 объявл., цены 46.30–46.69 | новых: 2, подошло: 2
+19:09:09 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:09:14 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:09:18 [DEBUG] Binance HTTP 200
+19:09:18 [INFO]   ✓ ПОДХОДИТ: Lutsk_Obmin 46.44 — шлю алерт
+19:09:18 [INFO] Telegram: отправлено
+19:09:18 [INFO]   ✓ ПОДХОДИТ: PEKTOP 46.45 — шлю алерт
+19:09:18 [INFO] Telegram: отправлено
+19:09:18 [INFO]   ✓ ПОДХОДИТ: P2P_TOP_exchange 46.50 — шлю алерт
+19:09:18 [INFO] Telegram: отправлено
+19:09:18 [INFO] Стакан: 20 объявл., цены 46.30–46.67 | новых: 3, подошло: 3
+19:09:19 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:09:24 [ERROR] Ошибка в listener
+Traceback (most recent call last):
+  File "E:\bots\p2p_monitor\p2p_monitor.py", line 280, in command_listener
+    data = tg_call("getUpdates", timeout=40, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __main__.tg_call() got multiple values for keyword argument 'timeout'
+19:09:28 [INFO] Остановлено
+19:10:35 [INFO] Старт. Фильтры:
+▶️ Работает
+Пара: USDT/UAH, BUY
+Цена: от — до —
+Мин. выполнение: —
+Мин. ордеров: —
+Оплата: любая
+Сумма: —
+Только мерчанты: нет
+19:10:35 [INFO] Telegram: отправлено
+19:10:36 [INFO] Команда: /start
+19:10:36 [DEBUG] Binance HTTP 200
+19:10:36 [INFO]   ✓ ПОДХОДИТ: P2P-fcdd0dqc 46.20 — шлю алерт
+19:10:36 [INFO] Telegram: отправлено
+19:10:36 [INFO] Команда: /start
+19:10:37 [INFO] Telegram: отправлено
+19:10:37 [INFO] Команда: /start
+19:10:37 [INFO] Telegram: отправлено
+19:10:37 [INFO] Команда: /help
+19:10:37 [INFO] Telegram: отправлено
+19:10:37 [INFO] Команда: /filters
+19:10:37 [INFO] Telegram: отправлено
+19:10:37 [INFO] Команда: /pause
+19:10:38 [INFO] Telegram: отправлено
+19:10:38 [INFO] Telegram: отправлено
+19:10:38 [INFO]   ✓ ПОДХОДИТ: denys_14k 46.28 — шлю алерт
+19:10:39 [INFO] Telegram: отправлено
+19:10:39 [INFO]   ✓ ПОДХОДИТ: ExTurk 46.30 — шлю алерт
+19:10:40 [INFO] Telegram: отправлено
+19:10:40 [INFO]   ✓ ПОДХОДИТ: _Prime_ExChange 46.32 — шлю алерт
+19:10:40 [INFO] Telegram: отправлено
+19:10:40 [INFO]   ✓ ПОДХОДИТ: 07_Exchange 46.35 — шлю алерт
+19:10:40 [INFO] Telegram: отправлено
+19:10:43 [INFO] Telegram: отправлено
+19:10:43 [INFO] Стакан: 20 объявл., цены 46.20–46.55 | новых: 20, подошло: 20
+19:10:43 [INFO] Фильтры изменились — пересканирую стакан
+19:10:43 [INFO] Пауза
+19:10:52 [INFO] Команда: /filters
+19:10:52 [INFO] Telegram: отправлено
+19:11:16 [INFO] Команда: /help
+19:11:16 [INFO] Telegram: отправлено
+19:11:21 [INFO] Команда: /set
+19:11:21 [INFO] Telegram: отправлено
+19:11:56 [INFO] Команда: /set min 47
+19:11:56 [INFO] Фильтр изменён: min_price = 47.0
+19:11:56 [INFO] Фильтры изменились — пересканирую стакан
+19:11:56 [INFO] Пауза
+19:11:56 [INFO] Telegram: отправлено
+19:12:21 [INFO] Команда: /set pay oshadbank
+19:12:21 [INFO] Фильтр изменён: pay_types = ['oshadbank']
+19:12:21 [INFO] Фильтры изменились — пересканирую стакан
+19:12:21 [INFO] Пауза
+19:12:21 [INFO] Telegram: отправлено
+19:12:39 [INFO] Команда: /resume
+19:12:39 [INFO] Фильтры изменились — пересканирую стакан
+19:12:39 [INFO] Telegram: отправлено
+19:12:39 [DEBUG] Binance HTTP 200
+19:12:39 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:12:50 [DEBUG] Binance HTTP 200
+19:12:50 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:13:00 [DEBUG] Binance HTTP 200
+19:13:00 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:13:10 [DEBUG] Binance HTTP 200
+19:13:10 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:13:21 [DEBUG] Binance HTTP 200
+19:13:21 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:13:31 [DEBUG] Binance HTTP 200
+19:13:31 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:13:41 [DEBUG] Binance HTTP 200
+19:13:41 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:13:52 [DEBUG] Binance HTTP 200
+19:13:52 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:14:02 [DEBUG] Binance HTTP 200
+19:14:02 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:14:13 [DEBUG] Binance HTTP 200
+19:14:13 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:14:23 [DEBUG] Binance HTTP 200
+19:14:23 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:14:33 [DEBUG] Binance HTTP 200
+19:14:33 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:14:44 [DEBUG] Binance HTTP 200
+19:14:44 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:14:54 [DEBUG] Binance HTTP 200
+19:14:54 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:15:05 [DEBUG] Binance HTTP 200
+19:15:05 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:15:15 [DEBUG] Binance HTTP 200
+19:15:15 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:15:23 [INFO] Команда: /methods
+19:15:23 [INFO] Telegram: отправлено
+19:15:25 [DEBUG] Binance HTTP 200
+19:15:25 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:15:36 [DEBUG] Binance HTTP 200
+19:15:36 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:15:46 [DEBUG] Binance HTTP 200
+19:15:46 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:15:57 [DEBUG] Binance HTTP 200
+19:15:57 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:16:07 [DEBUG] Binance HTTP 200
+19:16:07 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:16:17 [DEBUG] Binance HTTP 200
+19:16:17 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:16:28 [DEBUG] Binance HTTP 200
+19:16:28 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:16:38 [INFO] Остановлено
+19:16:49 [INFO] Старт. Фильтры:
+▶️ Работает
+Пара: USDT/UAH, BUY
+Цена: от 47.0 до —
+Мин. выполнение: —
+Мин. ордеров: —
+Оплата: oshadbank
+Сумма: —
+Только мерчанты: нет
+19:16:50 [INFO] Telegram: отправлено
+19:16:50 [DEBUG] Binance HTTP 200
+19:16:50 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:17:01 [DEBUG] Binance HTTP 200
+19:17:01 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:17:04 [INFO] Сообщение: 📋 Меню
+19:17:05 [INFO] Telegram: отправлено
+19:17:12 [DEBUG] Binance HTTP 200
+19:17:12 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:17:22 [DEBUG] Binance HTTP 200
+19:17:22 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:17:24 [INFO] Сообщение: вавв
+19:17:33 [DEBUG] Binance HTTP 200
+19:17:33 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:17:37 [INFO] Сообщение: /set pay ыыаа
+19:17:37 [WARNING] Список способов оплаты недоступен — беру названия как есть
+19:17:37 [INFO] Фильтр изменён: pay_types = ['ыыаа']
+19:17:37 [INFO] Фильтры изменились — пересканирую стакан
+19:17:38 [DEBUG] Binance HTTP 200
+19:17:38 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:17:38 [INFO] Telegram: отправлено
+19:17:45 [INFO] Сообщение: /menu
+19:17:45 [INFO] Telegram: отправлено
+19:17:48 [DEBUG] Binance HTTP 200
+19:17:48 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:17:53 [INFO] Сообщение: /set
+19:17:53 [INFO] Telegram: отправлено
+19:17:59 [DEBUG] Binance HTTP 200
+19:17:59 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:17:59 [INFO] Сообщение: /menu
+19:17:59 [INFO] Telegram: отправлено
+19:18:07 [INFO] Фильтр изменён: trade_type = SELL
+19:18:07 [INFO] Фильтры изменились — пересканирую стакан
+19:18:08 [DEBUG] Binance HTTP 200
+19:18:08 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:18:15 [INFO] Фильтр изменён: merchants_only = True
+19:18:15 [INFO] Фильтры изменились — пересканирую стакан
+19:18:15 [DEBUG] Binance HTTP 200
+19:18:15 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:18:17 [INFO] Фильтр изменён: merchants_only = False
+19:18:17 [INFO] Фильтры изменились — пересканирую стакан
+19:18:18 [DEBUG] Binance HTTP 200
+19:18:18 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:18:21 [INFO] Telegram: отправлено
+19:18:27 [INFO] Telegram: отправлено
+19:18:28 [DEBUG] Binance HTTP 200
+19:18:28 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:18:34 [INFO] Сообщение: 10000
+19:18:34 [INFO] Фильтр изменён: amount = 10000.0
+19:18:34 [INFO] Фильтры изменились — пересканирую стакан
+19:18:34 [INFO] Telegram: отправлено
+19:18:34 [DEBUG] Binance HTTP 200
+19:18:34 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:18:44 [DEBUG] Binance HTTP 200
+19:18:44 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:18:46 [INFO] Сообщение: /set pay monobank
+19:18:47 [WARNING] Список способов оплаты недоступен — беру названия как есть
+19:18:47 [INFO] Фильтр изменён: pay_types = ['monobank']
+19:18:47 [INFO] Фильтры изменились — пересканирую стакан
+19:18:47 [INFO] Telegram: отправлено
+19:18:47 [DEBUG] Binance HTTP 200
+19:18:47 [INFO]   ✓ ПОДХОДИТ: __Brost_ 47.92 — шлю алерт
+19:18:47 [INFO] Telegram: отправлено
+19:18:47 [INFO]   ✓ ПОДХОДИТ: Rykun 47.88 — шлю алерт
+19:18:47 [INFO] Telegram: отправлено
+19:18:47 [INFO]   ✓ ПОДХОДИТ: Jualis 47.87 — шлю алерт
+19:18:48 [INFO] Telegram: отправлено
+19:18:48 [INFO]   ✓ ПОДХОДИТ: koroboktrade 47.80 — шлю алерт
+19:18:48 [INFO] Telegram: отправлено
+19:18:48 [INFO]   ✓ ПОДХОДИТ: Dendi3 47.78 — шлю алерт
+19:18:48 [INFO] Telegram: отправлено
+19:18:48 [INFO] Telegram: отправлено
+19:18:48 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 20, к алерту: 20
+19:18:59 [DEBUG] Binance HTTP 200
+19:18:59 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:18:59 [INFO] Сообщение: /top
+19:19:00 [DEBUG] Binance HTTP 200
+19:19:00 [INFO] Telegram: отправлено
+19:19:09 [DEBUG] Binance HTTP 200
+19:19:09 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:19:15 [INFO] Сообщение: 📋 Меню
+19:19:15 [INFO] Telegram: отправлено
+19:19:19 [DEBUG] Binance HTTP 200
+19:19:19 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:19:25 [INFO] Telegram: отправлено
+19:19:30 [DEBUG] Binance HTTP 200
+19:19:30 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:19:30 [INFO] Сообщение: 50
+19:19:30 [INFO] Фильтр изменён: min_price = 50.0
+19:19:30 [INFO] Фильтры изменились — пересканирую стакан
+19:19:30 [INFO] Telegram: отправлено
+19:19:30 [DEBUG] Binance HTTP 200
+19:19:30 [DEBUG]   ✗ __Brost_ 47.92 — цена 47.92 < min 50.0
+19:19:30 [DEBUG]   ✗ Rykun 47.92 — цена 47.92 < min 50.0
+19:19:30 [DEBUG]   ✗ Jualis 47.87 — цена 47.87 < min 50.0
+19:19:30 [DEBUG]   ✗ koroboktrade 47.80 — цена 47.8 < min 50.0
+19:19:30 [DEBUG]   ✗ Dendi3 47.78 — цена 47.78 < min 50.0
+19:19:30 [DEBUG]   ✗ Pensiya24 47.72 — цена 47.72 < min 50.0
+19:19:30 [DEBUG]   ✗ MotoMoto0707 47.71 — цена 47.71 < min 50.0
+19:19:30 [DEBUG]   ✗ _merchant1 47.70 — цена 47.7 < min 50.0
+19:19:30 [DEBUG]   ✗ Alina_p2p_ 47.69 — цена 47.69 < min 50.0
+19:19:30 [DEBUG]   ✗ Princess_Ess 47.68 — цена 47.68 < min 50.0
+19:19:30 [DEBUG]   ✗ Throolid 47.67 — цена 47.67 < min 50.0
+19:19:30 [DEBUG]   ✗ Dydya_Yarik 47.66 — цена 47.66 < min 50.0
+19:19:30 [DEBUG]   ✗ crtMonkey 47.66 — цена 47.66 < min 50.0
+19:19:30 [DEBUG]   ✗ bushhhhh 47.65 — цена 47.65 < min 50.0
+19:19:30 [DEBUG]   ✗ valerapeppa 47.65 — цена 47.65 < min 50.0
+19:19:30 [DEBUG]   ✗ User-a5566 47.65 — цена 47.65 < min 50.0
+19:19:30 [DEBUG]   ✗ sh_exchange_033 47.62 — цена 47.62 < min 50.0
+19:19:30 [DEBUG]   ✗ bogison 47.61 — цена 47.61 < min 50.0
+19:19:30 [DEBUG]   ✗ valuta228 47.56 — цена 47.56 < min 50.0
+19:19:30 [DEBUG]   ✗ ____Anhelinka____ 47.55 — цена 47.55 < min 50.0
+19:19:30 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 20, к алерту: 0
+19:19:33 [INFO] Фильтр изменён: paused = True
+19:19:33 [INFO] Фильтры изменились — пересканирую стакан
+19:19:33 [INFO] Пауза
+19:19:36 [INFO] Фильтр изменён: paused = False
+19:19:36 [INFO] Фильтры изменились — пересканирую стакан
+19:19:36 [DEBUG] Binance HTTP 200
+19:19:36 [DEBUG]   ✗ __Brost_ 47.92 — цена 47.92 < min 50.0
+19:19:36 [DEBUG]   ✗ Rykun 47.92 — цена 47.92 < min 50.0
+19:19:36 [DEBUG]   ✗ Jualis 47.87 — цена 47.87 < min 50.0
+19:19:36 [DEBUG]   ✗ koroboktrade 47.80 — цена 47.8 < min 50.0
+19:19:36 [DEBUG]   ✗ Dendi3 47.78 — цена 47.78 < min 50.0
+19:19:36 [DEBUG]   ✗ Pensiya24 47.72 — цена 47.72 < min 50.0
+19:19:36 [DEBUG]   ✗ MotoMoto0707 47.71 — цена 47.71 < min 50.0
+19:19:36 [DEBUG]   ✗ _merchant1 47.70 — цена 47.7 < min 50.0
+19:19:36 [DEBUG]   ✗ Alina_p2p_ 47.69 — цена 47.69 < min 50.0
+19:19:36 [DEBUG]   ✗ Princess_Ess 47.68 — цена 47.68 < min 50.0
+19:19:36 [DEBUG]   ✗ Throolid 47.67 — цена 47.67 < min 50.0
+19:19:36 [DEBUG]   ✗ Dydya_Yarik 47.66 — цена 47.66 < min 50.0
+19:19:36 [DEBUG]   ✗ crtMonkey 47.66 — цена 47.66 < min 50.0
+19:19:36 [DEBUG]   ✗ bushhhhh 47.65 — цена 47.65 < min 50.0
+19:19:36 [DEBUG]   ✗ valerapeppa 47.65 — цена 47.65 < min 50.0
+19:19:36 [DEBUG]   ✗ User-a5566 47.65 — цена 47.65 < min 50.0
+19:19:36 [DEBUG]   ✗ sh_exchange_033 47.62 — цена 47.62 < min 50.0
+19:19:36 [DEBUG]   ✗ bogison 47.61 — цена 47.61 < min 50.0
+19:19:36 [DEBUG]   ✗ valuta228 47.56 — цена 47.56 < min 50.0
+19:19:36 [DEBUG]   ✗ ____Anhelinka____ 47.55 — цена 47.55 < min 50.0
+19:19:36 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 20, к алерту: 0
+19:19:47 [DEBUG] Binance HTTP 200
+19:19:47 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:19:57 [DEBUG] Binance HTTP 200
+19:19:57 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:20:07 [DEBUG] Binance HTTP 200
+19:20:07 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:20:17 [INFO] Сообщение: /set pay monobank приват ощад пумб
+19:20:18 [WARNING] Список способов оплаты недоступен — беру названия как есть
+19:20:18 [INFO] Фильтр изменён: pay_types = ['monobank', 'приват', 'ощад', 'пумб']
+19:20:18 [DEBUG] Binance HTTP 200
+19:20:18 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:20:18 [INFO] Фильтры изменились — пересканирую стакан
+19:20:18 [INFO] Telegram: отправлено
+19:20:18 [DEBUG] Binance HTTP 200
+19:20:18 [DEBUG]   ✗ __Brost_ 47.92 — цена 47.92 < min 50.0
+19:20:18 [DEBUG]   ✗ Rykun 47.92 — цена 47.92 < min 50.0
+19:20:18 [DEBUG]   ✗ Jualis 47.89 — цена 47.89 < min 50.0
+19:20:18 [DEBUG]   ✗ koroboktrade 47.80 — цена 47.8 < min 50.0
+19:20:18 [DEBUG]   ✗ Dendi3 47.78 — цена 47.78 < min 50.0
+19:20:18 [DEBUG]   ✗ Pensiya24 47.72 — цена 47.72 < min 50.0
+19:20:18 [DEBUG]   ✗ Alina_p2p_ 47.72 — цена 47.72 < min 50.0
+19:20:18 [DEBUG]   ✗ MotoMoto0707 47.71 — цена 47.71 < min 50.0
+19:20:18 [DEBUG]   ✗ _merchant1 47.70 — цена 47.7 < min 50.0
+19:20:18 [DEBUG]   ✗ Princess_Ess 47.68 — цена 47.68 < min 50.0
+19:20:18 [DEBUG]   ✗ Throolid 47.67 — цена 47.67 < min 50.0
+19:20:18 [DEBUG]   ✗ Dydya_Yarik 47.66 — цена 47.66 < min 50.0
+19:20:18 [DEBUG]   ✗ crtMonkey 47.66 — цена 47.66 < min 50.0
+19:20:18 [DEBUG]   ✗ bushhhhh 47.65 — цена 47.65 < min 50.0
+19:20:18 [DEBUG]   ✗ valerapeppa 47.65 — цена 47.65 < min 50.0
+19:20:18 [DEBUG]   ✗ User-a5566 47.65 — цена 47.65 < min 50.0
+19:20:18 [DEBUG]   ✗ sh_exchange_033 47.62 — цена 47.62 < min 50.0
+19:20:18 [DEBUG]   ✗ bogison 47.61 — цена 47.61 < min 50.0
+19:20:18 [DEBUG]   ✗ valuta228 47.56 — цена 47.56 < min 50.0
+19:20:18 [DEBUG]   ✗ ____Anhelinka____ 47.55 — цена 47.55 < min 50.0
+19:20:18 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 20, к алерту: 0
+19:20:29 [DEBUG] Binance HTTP 200
+19:20:29 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:20:36 [INFO] Сообщение: /set
+19:20:37 [INFO] Telegram: отправлено
+19:20:39 [DEBUG] Binance HTTP 200
+19:20:39 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:20:49 [DEBUG] Binance HTTP 200
+19:20:49 [INFO] Стакан: 20 объявл., цены 47.55–47.93 | новых: 0, к алерту: 0
+19:20:53 [INFO] Сообщение: /help
+19:20:53 [INFO] Telegram: отправлено
+19:20:54 [INFO] Telegram: отправлено
+19:21:00 [DEBUG] Binance HTTP 200
+19:21:00 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:21:10 [DEBUG] Binance HTTP 200
+19:21:10 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:21:13 [INFO] Сообщение: /set min 47
+19:21:13 [INFO] Фильтр изменён: min_price = 47.0
+19:21:13 [INFO] Фильтры изменились — пересканирую стакан
+19:21:14 [INFO] Telegram: отправлено
+19:21:14 [DEBUG] Binance HTTP 200
+19:21:14 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 20, к алерту: 0
+19:21:22 [INFO] Сообщение: 🔝 Топ
+19:21:22 [DEBUG] Binance HTTP 200
+19:21:22 [INFO] Telegram: отправлено
+19:21:24 [DEBUG] Binance HTTP 200
+19:21:24 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:21:34 [DEBUG] Binance HTTP 200
+19:21:34 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:21:45 [DEBUG] Binance HTTP 200
+19:21:45 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:21:55 [DEBUG] Binance HTTP 200
+19:21:55 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:22:06 [DEBUG] Binance HTTP 200
+19:22:06 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:22:16 [DEBUG] Binance HTTP 200
+19:22:16 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:22:26 [DEBUG] Binance HTTP 200
+19:22:26 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:22:37 [DEBUG] Binance HTTP 200
+19:22:37 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:22:47 [DEBUG] Binance HTTP 200
+19:22:47 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:22:58 [DEBUG] Binance HTTP 200
+19:22:58 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:23:08 [DEBUG] Binance HTTP 200
+19:23:08 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:23:18 [DEBUG] Binance HTTP 200
+19:23:18 [INFO] Стакан: 20 объявл., цены 47.55–47.92 | новых: 0, к алерту: 0
+19:23:29 [DEBUG] Binance HTTP 200
+19:23:29 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:23:39 [DEBUG] Binance HTTP 200
+19:23:39 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:23:50 [DEBUG] Binance HTTP 200
+19:23:50 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:24:00 [DEBUG] Binance HTTP 200
+19:24:00 [INFO]   ✓ ПОДХОДИТ: clownmeow 47.55 — шлю алерт
+19:24:00 [INFO] Telegram: отправлено
+19:24:00 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 1, к алерту: 1
+19:24:11 [DEBUG] Binance HTTP 200
+19:24:11 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:24:21 [DEBUG] Binance HTTP 200
+19:24:21 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:24:31 [DEBUG] Binance HTTP 200
+19:24:31 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:24:42 [DEBUG] Binance HTTP 200
+19:24:42 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:24:52 [DEBUG] Binance HTTP 200
+19:24:52 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:25:03 [DEBUG] Binance HTTP 200
+19:25:03 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:25:13 [DEBUG] Binance HTTP 200
+19:25:13 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:25:23 [DEBUG] Binance HTTP 200
+19:25:23 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:25:34 [DEBUG] Binance HTTP 200
+19:25:34 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:25:44 [DEBUG] Binance HTTP 200
+19:25:44 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:25:55 [DEBUG] Binance HTTP 200
+19:25:55 [INFO]   ✓ ПОДХОДИТ: OOObmen24 47.55 — шлю алерт
+19:25:55 [INFO] Telegram: отправлено
+19:25:55 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 1, к алерту: 1
+19:26:05 [DEBUG] Binance HTTP 200
+19:26:05 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:26:16 [DEBUG] Binance HTTP 200
+19:26:16 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:26:26 [DEBUG] Binance HTTP 200
+19:26:26 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:26:37 [DEBUG] Binance HTTP 200
+19:26:37 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:26:47 [DEBUG] Binance HTTP 200
+19:26:47 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:26:58 [DEBUG] Binance HTTP 200
+19:26:58 [INFO] Стакан: 20 объявл., цены 47.55–48.00 | новых: 0, к алерту: 0
+19:27:08 [DEBUG] Binance HTTP 200
+19:27:08 [INFO]   ✓ ПОДХОДИТ: Ua_Exchan 48.10 — шлю алерт
+19:27:08 [INFO] Telegram: отправлено
+19:27:08 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 1, к алерту: 1
+19:27:19 [DEBUG] Binance HTTP 200
+19:27:19 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:27:29 [DEBUG] Binance HTTP 200
+19:27:29 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:27:40 [DEBUG] Binance HTTP 200
+19:27:40 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:27:50 [DEBUG] Binance HTTP 200
+19:27:50 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:28:00 [DEBUG] Binance HTTP 200
+19:28:00 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:28:11 [DEBUG] Binance HTTP 200
+19:28:11 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:28:21 [DEBUG] Binance HTTP 200
+19:28:21 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:28:32 [DEBUG] Binance HTTP 200
+19:28:32 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:28:42 [DEBUG] Binance HTTP 200
+19:28:42 [INFO]   ✓ ПОДХОДИТ: JosephLorusso 47.75 — шлю алерт
+19:28:42 [INFO] Telegram: отправлено
+19:28:42 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 1, к алерту: 1
+19:28:52 [DEBUG] Binance HTTP 200
+19:28:52 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:29:03 [DEBUG] Binance HTTP 200
+19:29:03 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:29:13 [DEBUG] Binance HTTP 200
+19:29:13 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:29:24 [DEBUG] Binance HTTP 200
+19:29:24 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:29:34 [DEBUG] Binance HTTP 200
+19:29:34 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:29:45 [DEBUG] Binance HTTP 200
+19:29:45 [INFO] Стакан: 20 объявл., цены 47.55–48.10 | новых: 0, к алерту: 0
+19:29:55 [DEBUG] Binance HTTP 200
+19:29:55 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:30:05 [DEBUG] Binance HTTP 200
+19:30:05 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:30:16 [DEBUG] Binance HTTP 200
+19:30:16 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:30:26 [DEBUG] Binance HTTP 200
+19:30:26 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:30:37 [DEBUG] Binance HTTP 200
+19:30:37 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:30:47 [DEBUG] Binance HTTP 200
+19:30:47 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:30:57 [DEBUG] Binance HTTP 200
+19:30:57 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:31:08 [DEBUG] Binance HTTP 200
+19:31:08 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:31:18 [DEBUG] Binance HTTP 200
+19:31:18 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:31:29 [DEBUG] Binance HTTP 200
+19:31:29 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:31:40 [DEBUG] Binance HTTP 200
+19:31:40 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:31:50 [DEBUG] Binance HTTP 200
+19:31:50 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:32:01 [DEBUG] Binance HTTP 200
+19:32:01 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:32:11 [DEBUG] Binance HTTP 200
+19:32:11 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:32:22 [DEBUG] Binance HTTP 200
+19:32:22 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:32:32 [DEBUG] Binance HTTP 200
+19:32:32 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:32:42 [DEBUG] Binance HTTP 200
+19:32:42 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:32:53 [DEBUG] Binance HTTP 200
+19:32:53 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:33:03 [DEBUG] Binance HTTP 200
+19:33:03 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:33:13 [DEBUG] Binance HTTP 200
+19:33:13 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:33:24 [DEBUG] Binance HTTP 200
+19:33:24 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:33:34 [DEBUG] Binance HTTP 200
+19:33:34 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 0, к алерту: 0
+19:33:45 [DEBUG] Binance HTTP 200
+19:33:45 [INFO]   ✓ ПОДХОДИТ: Katrina_1 47.90 — шлю алерт
+19:33:45 [INFO] Telegram: отправлено
+19:33:45 [INFO]   ✓ ПОДХОДИТ: User-3f951 47.73 — шлю алерт
+19:33:45 [INFO] Telegram: отправлено
+19:33:45 [INFO] Стакан: 20 объявл., цены 47.55–47.95 | новых: 2, к алерту: 2
+19:33:55 [DEBUG] Binance HTTP 200
+19:33:55 [INFO] Стакан: 20 объявл., цены 47.55–47.96 | новых: 0, к алерту: 0
+19:34:06 [DEBUG] Binance HTTP 200
+19:34:06 [INFO] Стакан: 20 объявл., цены 47.55–47.96 | новых: 0, к алерту: 0
+19:34:16 [DEBUG] Binance HTTP 200
+19:34:16 [INFO]   ✓ ПОДХОДИТ: User-2e478 47.60 — шлю алерт
+19:34:16 [INFO] Telegram: отправлено
+19:34:16 [INFO] Стакан: 20 объявл., цены 47.56–47.96 | новых: 1, к алерту: 1
+19:34:27 [DEBUG] Binance HTTP 200
+19:34:27 [INFO] Стакан: 20 объявл., цены 47.56–47.96 | новых: 0, к алерту: 0
+19:34:37 [DEBUG] Binance HTTP 200
+19:34:37 [INFO] Стакан: 20 объявл., цены 47.56–47.96 | новых: 0, к алерту: 0
+19:34:47 [DEBUG] Binance HTTP 200
+19:34:47 [INFO] Стакан: 20 объявл., цены 47.56–47.96 | новых: 0, к алерту: 0
+19:34:58 [DEBUG] Binance HTTP 200
+19:34:58 [INFO] Стакан: 20 объявл., цены 47.56–47.96 | новых: 0, к алерту: 0
+19:35:08 [DEBUG] Binance HTTP 200
+19:35:08 [INFO] Стакан: 20 объявл., цены 47.56–47.96 | новых: 0, к алерту: 0
+19:35:19 [DEBUG] Binance HTTP 200
+19:35:19 [INFO] Стакан: 20 объявл., цены 47.56–48.02 | новых: 0, к алерту: 0
+19:35:29 [DEBUG] Binance HTTP 200
+19:35:29 [INFO] Стакан: 20 объявл., цены 47.56–48.02 | новых: 0, к алерту: 0
+19:35:39 [DEBUG] Binance HTTP 200
+19:35:39 [INFO] Стакан: 20 объявл., цены 47.56–48.02 | новых: 0, к алерту: 0
+19:35:50 [DEBUG] Binance HTTP 200
+19:35:50 [INFO] Стакан: 20 объявл., цены 47.56–48.02 | новых: 0, к алерту: 0
+19:36:00 [DEBUG] Binance HTTP 200
+19:36:00 [INFO] Стакан: 20 объявл., цены 47.56–48.02 | новых: 0, к алерту: 0
+19:36:11 [DEBUG] Binance HTTP 200
+19:36:11 [INFO] Стакан: 20 объявл., цены 47.56–48.02 | новых: 0, к алерту: 0
+19:36:21 [DEBUG] Binance HTTP 200
+19:36:21 [INFO] Стакан: 20 объявл., цены 47.56–48.02 | новых: 0, к алерту: 0
+19:36:31 [DEBUG] Binance HTTP 200
+19:36:31 [INFO] Стакан: 20 объявл., цены 47.60–48.02 | новых: 0, к алерту: 0
+19:36:42 [DEBUG] Binance HTTP 200
+19:36:42 [INFO] Стакан: 20 объявл., цены 47.60–48.02 | новых: 0, к алерту: 0
+19:36:52 [DEBUG] Binance HTTP 200
+19:36:52 [INFO] Стакан: 20 объявл., цены 47.55–48.02 | новых: 0, к алерту: 0
+19:37:03 [DEBUG] Binance HTTP 200
+19:37:03 [INFO] Стакан: 20 объявл., цены 47.55–48.02 | новых: 0, к алерту: 0
+19:37:13 [DEBUG] Binance HTTP 200
+19:37:13 [INFO] Стакан: 20 объявл., цены 47.55–48.02 | новых: 0, к алерту: 0
+19:37:23 [DEBUG] Binance HTTP 200
+19:37:23 [INFO] Стакан: 20 объявл., цены 47.55–48.02 | новых: 0, к алерту: 0
+19:37:29 [INFO] Сообщение: 📋 Меню
+19:37:29 [INFO] Telegram: отправлено
+19:37:34 [DEBUG] Binance HTTP 200
+19:37:34 [INFO] Стакан: 20 объявл., цены 47.55–48.02 | новых: 0, к алерту: 0
+19:37:35 [INFO] Фильтр изменён: paused = True
+19:37:35 [INFO] Фильтры изменились — пересканирую стакан
+19:37:35 [INFO] Пауза
+19:37:39 [INFO] Telegram: отправлено
+19:37:42 [INFO] Сообщение: 40
+19:37:42 [INFO] Фильтр изменён: min_price = 40.0
+19:37:42 [INFO] Фильтры изменились — пересканирую стакан
+19:37:42 [INFO] Пауза
+19:37:42 [INFO] Telegram: отправлено
+19:37:54 [INFO] Сообщение: /set
+19:37:54 [INFO] Telegram: отправлено
+19:38:11 [INFO] Сообщение: /set pay Ощадбанк
+19:38:12 [WARNING] Список способов оплаты недоступен — беру названия как есть
+19:38:12 [INFO] Фильтр изменён: pay_types = ['Ощадбанк']
+19:38:12 [INFO] Фильтры изменились — пересканирую стакан
+19:38:12 [INFO] Пауза
+19:38:12 [INFO] Telegram: отправлено
+19:38:22 [INFO] Сообщение: 📋 Меню
+19:38:22 [INFO] Telegram: отправлено
+19:38:24 [INFO] Фильтр изменён: paused = False
+19:38:24 [INFO] Фильтры изменились — пересканирую стакан
+19:38:24 [DEBUG] Binance HTTP 200
+19:38:24 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:38:26 [INFO] Сообщение: 🔝 Топ
+19:38:26 [DEBUG] Binance HTTP 200
+19:38:26 [INFO] Telegram: отправлено
+19:38:35 [DEBUG] Binance HTTP 200
+19:38:35 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:38:40 [INFO] Сообщение: /menu
+19:38:40 [INFO] Telegram: отправлено
+19:38:45 [DEBUG] Binance HTTP 200
+19:38:45 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:38:56 [DEBUG] Binance HTTP 200
+19:38:56 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:38:57 [INFO] Telegram: отправлено
+19:39:02 [INFO] Сообщение: 1000
+19:39:02 [INFO] Фильтр изменён: amount = 1000.0
+19:39:02 [INFO] Фильтры изменились — пересканирую стакан
+19:39:03 [INFO] Telegram: отправлено
+19:39:03 [DEBUG] Binance HTTP 200
+19:39:03 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:39:13 [DEBUG] Binance HTTP 200
+19:39:13 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:39:24 [DEBUG] Binance HTTP 200
+19:39:24 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:39:34 [DEBUG] Binance HTTP 200
+19:39:34 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:39:44 [DEBUG] Binance HTTP 200
+19:39:44 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:39:55 [DEBUG] Binance HTTP 200
+19:39:55 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:40:05 [DEBUG] Binance HTTP 200
+19:40:05 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:40:16 [DEBUG] Binance HTTP 200
+19:40:16 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:40:26 [DEBUG] Binance HTTP 200
+19:40:26 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:40:36 [DEBUG] Binance HTTP 200
+19:40:36 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:40:47 [DEBUG] Binance HTTP 200
+19:40:47 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:40:57 [DEBUG] Binance HTTP 200
+19:40:57 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:41:07 [DEBUG] Binance HTTP 200
+19:41:07 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:41:18 [DEBUG] Binance HTTP 200
+19:41:18 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:41:29 [DEBUG] Binance HTTP 200
+19:41:29 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:41:39 [DEBUG] Binance HTTP 200
+19:41:39 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:41:49 [DEBUG] Binance HTTP 200
+19:41:49 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:42:00 [DEBUG] Binance HTTP 200
+19:42:00 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:42:10 [DEBUG] Binance HTTP 200
+19:42:10 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:42:21 [DEBUG] Binance HTTP 200
+19:42:21 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:42:31 [DEBUG] Binance HTTP 200
+19:42:31 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:42:41 [DEBUG] Binance HTTP 200
+19:42:41 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:42:52 [DEBUG] Binance HTTP 200
+19:42:52 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:43:02 [DEBUG] Binance HTTP 200
+19:43:02 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:43:12 [DEBUG] Binance HTTP 200
+19:43:12 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:43:23 [DEBUG] Binance HTTP 200
+19:43:23 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:43:33 [DEBUG] Binance HTTP 200
+19:43:33 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:43:44 [DEBUG] Binance HTTP 200
+19:43:44 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:43:54 [DEBUG] Binance HTTP 200
+19:43:54 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
+19:44:04 [DEBUG] Binance HTTP 200
+19:44:04 [WARNING] Стакан пустой или запрос не удался (проверь пару/оплату/сумму)
